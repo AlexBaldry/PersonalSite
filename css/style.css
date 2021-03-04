@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-image: url("http://rooftop.site/img/pexels-jeff-nissen-942256.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.particles-js-canvas-el {
+
+  position: absolute;
+  top: 5;
+  min-height: 100%;
+  width: 100%
+}
+
+
+
+.card {
+  border: 2px solid #a5178d;
+  box-shadow: 5px 6px 0px #a51799;
+  transition: 0.3s all;
+  border-radius: 3px;
+  background-color: #fff;
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 340px;
+  max-width: 95%;
+  z-index: 99999;
+}
+.card .avatar img {
+  border-radius: 50%;
+  border: 4px solid #a51792;
+}
+.card .title {
+  font-size: 26px;
+  margin-top: 18px;
+  color: #a51792;
+}
+.card .description {
+  font-size: 17px;
+  margin-top: 18px;
+  color: #64707d;
+}
+.card .social ul {
+  margin-top: 22px;
+  list-style-type: none;
+}
+.card .social ul li {
+  display: inline;
+  font-size: 22px;
+  cursor: pointer;
+  color: #a5178d;
+}
